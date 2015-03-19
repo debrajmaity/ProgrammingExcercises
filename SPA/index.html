@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html ng-app="angulartest">
+
+<head>
+
+<title>Angular JS Test</title>
+<!-- load bootstrap and friends -->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+<!-- load angularjs and the seperate route module -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+
+<!-- load up our app -->
+<script src="app/app.js"></script>
+</head>
+
+<body>
+
+<!-- Static navbar -->
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<a class="navbar-brand" href="#">AngularJS test</a>
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="active"><a href="#">Home</a></li>
+<li><a href="#faq">FAQ</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="http://phpro.org/tutorials">Tutorials</a></li>
+<li><a href="http://phpro.org/articles">Articles</a></li>
+<li><a href="http://phpro.org/examples">Examples</a></li>
+</ul>
+</div><!--/.nav-collapse -->
+</div>
+</div>
+
+
+<div class="container">
+
+<!-- content is injected here -->
+<div ng-view></div>
+
+</div> <!-- /container -->
+
+</body>
+</html>
