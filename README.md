@@ -1,3 +1,3 @@
 # ProgrammingExcercises
 
-# This repositorty captures all code written as part of programming exercise.
+# Repository listing all the coding excercises done when not at work.
